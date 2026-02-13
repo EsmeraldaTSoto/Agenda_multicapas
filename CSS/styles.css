@@ -1,0 +1,83 @@
+body {
+    background-color: #E1DDD7;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 150vh;
+    flex-direction: column;
+  }
+
+input{
+    width: auto;
+    padding: 1%;
+    box-sizing: border-box;  
+    border: 3;
+    transition: 0.3s;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button{
+    width: auto;
+    padding: 1%;
+    border: 2;
+    color: black;
+    background: #A6B6BA;
+    transition: 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+button:hover{
+    background:#738488;
+}
+
+.title{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+}
+
+.container {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 4%;
+    left: 40%;
+    background-color:#E1DDD7;
+} 
+
+.contact {
+    position: relative;
+    top: 40px;
+    width: 820px;
+    left: 27%;
+    color: #000;
+    padding: 1%;
+    overflow: scroll;
+    overflow: auto;
+    height: 350px;
+    overflow-x:hidden;
+   
+}
+
+table {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black; 
+    margin-top: 5%;
+    width: auto;
+    border-collapse: collapse;
+    background-color: #D0D8DA;
+}
+
+td {
+    border: 1px solid black;
+    padding: 2%;
+}
+
+ tr:hover {
+    background-color: #738488;
+}
+
